@@ -5,4 +5,4 @@ Making a new repository while eating pretzels in Berlin
 Learning how things work in this world.
 
 First push!
-![image of pretzel](images/soft-pretzel.jpg)
+![image of pretzel](images/softpretzel.jpg)
