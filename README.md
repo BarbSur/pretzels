@@ -7,4 +7,7 @@ Learning how things work in this world.
 First push!
 ![image of pretzel](images/softpretzel.jpg)
 
-hihi 
+hihi
+
+
+![image of falling ball](images/falling_ball.jpg)
