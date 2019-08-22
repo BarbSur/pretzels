@@ -1,0 +1,227 @@
+Last login: Tue Aug 20 10:23:48 on console
+Barbora-MacBook-Air-5:~ barbora$ git --version
+git version 2.22.0
+Barbora-MacBook-Air-5:~ barbora$ ls
+Applications
+Creative Cloud Files
+Desktop
+Disk Google
+Disk Google (barbora@makemore.cz)
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+PycharmProjects
+barborassura@gmail.com Creative Cloud Files
+iCloud Drive (archiv)
+prusacontrol.log
+Barbora-MacBook-Air-5:~ barbora$ cd Documents
+Barbora-MacBook-Air-5:Documents barbora$ LEARN
+-bash: LEARN: command not found
+Barbora-MacBook-Air-5:Documents barbora$ CreativeCoding
+-bash: CreativeCoding: command not found
+Barbora-MacBook-Air-5:Documents barbora$ cd CreativeCoding
+Barbora-MacBook-Air-5:CreativeCoding barbora$ cd Processing
+Barbora-MacBook-Air-5:Processing barbora$ ls Processing
+ls: Processing: No such file or directory
+Barbora-MacBook-Air-5:Processing barbora$ cd /Users/barbora/Documents/CreativeCoding/Processing/LEARN 
+Barbora-MacBook-Air-5:LEARN barbora$ cd ..
+Barbora-MacBook-Air-5:Processing barbora$ cd ..
+Barbora-MacBook-Air-5:CreativeCoding barbora$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Barbora-MacBook-Air-5:CreativeCoding barbora$ cd github
+-bash: cd: github: No such file or directory
+Barbora-MacBook-Air-5:CreativeCoding barbora$ cd
+Barbora-MacBook-Air-5:~ barbora$ ls 
+Applications
+Creative Cloud Files
+Desktop
+Disk Google
+Disk Google (barbora@makemore.cz)
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+PycharmProjects
+barborassura@gmail.com Creative Cloud Files
+iCloud Drive (archiv)
+prusacontrol.log
+Barbora-MacBook-Air-5:~ barbora$ cd Desktop
+Barbora-MacBook-Air-5:Desktop barbora$ cd
+Barbora-MacBook-Air-5:~ barbora$ 
+Barbora-MacBook-Air-5:~ barbora$ git config --global user.name "BarbSur"
+Barbora-MacBook-Air-5:~ barbora$ git config --global user.name
+BarbSur
+Barbora-MacBook-Air-5:~ barbora$ git config --global user.email
+Barbora-MacBook-Air-5:~ barbora$ --global user.email barborassura@gmail.com
+-bash: --global: command not found
+Barbora-MacBook-Air-5:~ barbora$ --global user.email "barborassura@gmail.com"
+-bash: --global: command not found
+Barbora-MacBook-Air-5:~ barbora$ git config --global user.email "barborassura@gmail.com"
+Barbora-MacBook-Air-5:~ barbora$ git config --global user.email
+barborassura@gmail.com
+Barbora-MacBook-Air-5:~ barbora$ https://github.com/BarbSur/pretzels.git
+-bash: https://github.com/BarbSur/pretzels.git: No such file or directory
+Barbora-MacBook-Air-5:~ barbora$ ls
+Applications
+Creative Cloud Files
+Desktop
+Disk Google
+Disk Google (barbora@makemore.cz)
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+PycharmProjects
+barborassura@gmail.com Creative Cloud Files
+iCloud Drive (archiv)
+prusacontrol.log
+Barbora-MacBook-Air-5:~ barbora$ cd github
+-bash: cd: github: No such file or directory
+Barbora-MacBook-Air-5:~ barbora$ /Users/barbora/Documents/SchoolOfMa/github 
+-bash: /Users/barbora/Documents/SchoolOfMa/github: is a directory
+Barbora-MacBook-Air-5:~ barbora$ ls
+Applications
+Creative Cloud Files
+Desktop
+Disk Google
+Disk Google (barbora@makemore.cz)
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+PycharmProjects
+barborassura@gmail.com Creative Cloud Files
+iCloud Drive (archiv)
+prusacontrol.log
+Barbora-MacBook-Air-5:~ barbora$ pwd
+/Users/barbora
+Barbora-MacBook-Air-5:~ barbora$ cd /Users/barbora/Documents/SchoolOfMa/github 
+Barbora-MacBook-Air-5:github barbora$ pwd
+/Users/barbora/Documents/SchoolOfMa/github
+Barbora-MacBook-Air-5:github barbora$ git clone https://github.com/BarbSur/pretzels.git
+Cloning into 'pretzels'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+Barbora-MacBook-Air-5:github barbora$ ls
+pretzels
+Barbora-MacBook-Air-5:github barbora$ cd pretzels
+Barbora-MacBook-Air-5:pretzels barbora$ ls
+README.md
+Barbora-MacBook-Air-5:pretzels barbora$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Barbora-MacBook-Air-5:pretzels barbora$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+Barbora-MacBook-Air-5:pretzels barbora$ git add --all
+Barbora-MacBook-Air-5:pretzels barbora$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   README.md
+
+Barbora-MacBook-Air-5:pretzels barbora$ git push
+Username for 'https://github.com': BarbSur
+Password for 'https://BarbSur@github.com': 
+Everything up-to-date
+Barbora-MacBook-Air-5:pretzels barbora$ git commit - "soft-pretzel"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'soft-pretzel' did not match any file(s) known to git
+Barbora-MacBook-Air-5:pretzels barbora$ commit - "pretzel"
+-bash: commit: command not found
+Barbora-MacBook-Air-5:pretzels barbora$ commit - "image of pretzel"
+-bash: commit: command not found
+Barbora-MacBook-Air-5:pretzels barbora$ commit - "softpretzel"
+-bash: commit: command not found
+Barbora-MacBook-Air-5:pretzels barbora$ git commit -m "soft-pretzel"
+[master 4d132d1] soft-pretzel
+ 1 file changed, 3 insertions(+)
+Barbora-MacBook-Air-5:pretzels barbora$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 322 bytes | 322.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/BarbSur/pretzels.git
+   8db63d7..4d132d1  master -> master
+Barbora-MacBook-Air-5:pretzels barbora$ ls
+README.md
+Barbora-MacBook-Air-5:pretzels barbora$ cd
+Barbora-MacBook-Air-5:~ barbora$ pdw
+-bash: pdw: command not found
+Barbora-MacBook-Air-5:~ barbora$ pwd
+/Users/barbora
+Barbora-MacBook-Air-5:~ barbora$ cd /Users/barbora/Documents/SchoolOfMa/github 
+Barbora-MacBook-Air-5:github barbora$ git status
+fatal: not a git repository (or any of the parent directories): .git
+Barbora-MacBook-Air-5:github barbora$ ls
+pretzels
+Barbora-MacBook-Air-5:github barbora$ cd pretzels/
+Barbora-MacBook-Air-5:pretzels barbora$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	images/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Barbora-MacBook-Air-5:pretzels barbora$ git add --all
+Barbora-MacBook-Air-5:pretzels barbora$ git commit -m "move folder"
+[master baf17f1] move folder
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 images/softpretzel.jpg
+Barbora-MacBook-Air-5:pretzels barbora$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 262.80 KiB | 12.51 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/BarbSur/pretzels.git
+   4d132d1..baf17f1  master -> master
+Barbora-MacBook-Air-5:pretzels barbora$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Barbora-MacBook-Air-5:pretzels barbora$ 
